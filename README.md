@@ -20,8 +20,11 @@ The implementation consists of the following components:
 • The hillClimbing function uses a hill-climbing local search algorithm to improve the state by iteratively moving queens to reduce the number of attacking queens.  
 4. Random Restart and Shoulder Traversal 
 • If the algorithm gets stuck in a local minimum, it applies a random restart by randomly reconfiguring the board and state.  
-• Shoulder traversal is implemented by randomly modifying the position of a queen when no improvement can be made.  
-5. Visualization
+• Shoulder traversal is implemented by randomly modifying the position of a queen when no improvement can be made.
+
+
+![image](./download.png)
+6. Visualization
 • The solution quality and execution time at each iteration are recorded for visualization.   
 • A line plot is created using matplotlib to show how the solution quality evolves over time.    
 
