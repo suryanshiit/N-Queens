@@ -22,11 +22,12 @@ The implementation consists of the following components:
 • If the algorithm gets stuck in a local minimum, it applies a random restart by randomly reconfiguring the board and state.  
 • Shoulder traversal is implemented by randomly modifying the position of a queen when no improvement can be made.
 
-
-![image](./download.png)
-6. Visualization
+5. Visualization
 • The solution quality and execution time at each iteration are recorded for visualization.   
 • A line plot is created using matplotlib to show how the solution quality evolves over time.    
 
 Results  
 The code will display a line plot showing how the solution quality changes over time as the local search algorithm progresses.   
+
+
+![image](./download.png)
